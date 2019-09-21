@@ -1,0 +1,28 @@
+html {
+  background: url(images/starsBackground.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+.App {
+  display: block;
+  padding-top: 10px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  pointer-events: none;
+  width: 30%;
+  height: auto;
+}
+
+.Selector {
+  font-size: calc(9px + 2vmin);
+  padding: 4px;
+  border-radius: 0.2em;
+  font-family: "Ubuntu", sans-serif;
+}
